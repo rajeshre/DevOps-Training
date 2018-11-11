@@ -6,8 +6,10 @@ package com.javatpoint;
  */
 public class App 
 {
+    static String hello=null;
+    
     public static void main( String[] args )
     {
-        System.outprintln( "Hello World!" );
+        System.out.println( "Hello World!"+hello.toString() );
     }
 }
